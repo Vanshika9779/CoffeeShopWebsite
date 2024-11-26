@@ -1,0 +1,139 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
+    background-color: #6f4e37;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.header h1 {
+    font-size: 2.5em;
+}
+.header p {
+    margin: 10px 0;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #6f4e37;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #e0d4c1;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(177, 105, 65, 0.212);
+}
+.menu h2 {
+    font-size: 2em;
+    color: #6f4e37;
+    margin-bottom: 20px;
+}
+.menu-item {
+    margin: 16px 0;
+    padding-bottom: 20px;
+    border-radius:20px;
+    background-color: rgba(195, 154, 132, 0.788);
+}
+.menu-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    background-color: rgba(172, 85, 35, 0.56);
+    border-radius: 20px;
+    text-align: center;
+}
+.menu-item p {
+    font-size: 1.2em;
+    color: #555;
+}
+.menu-item h4{
+    color: rgb(52, 39, 30);
+    font-family:'Times New Roman', Times, serif;
+}
+.order{
+    display: inline-block;
+    padding: 5px 20px;
+    background-color:#eae0d9eb;
+    color:#333;
+    text-decoration: none;
+    border-radius:10px;
+    margin-top: 20px;
+}
+.order:hover{
+    background-color: #ffffff;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+.contact h2 {
+    font-size: 2em;
+    color: #6f4e37;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact button {
+    background-color: #6f4e37;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.contact button:hover {
+    background-color: #5e4330;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+} 
+img{
+    border-radius: 100px;
+}
+.img-1 p{
+    text-align: left;
+    color: #555;
+}
+.img-1{
+    background-color: rgba(195, 154, 132, 0.788) ;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Welcome to Our Coffee Shop</h1>
+        <p>Your favorite place for a coffee break!</p><br>
+        <p>The RARE coffee shop</p>
+        <a href="#menu" class="btn">View Menu</a>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Rare Menu</h2>
+        <div class="menu-item">
+            <h3>Espresso</h3><br> 
+            <img src="7694C486-A1CA-4FF0-877E-518B1A2357DA.jpeg" atl="click here" height="100px" width="100px">
+            <h4>A concentrated coffee beverage with intense flavour and high caffeine content.</h4><br>
+            <p>Rs280</p>
+            <a href="#" class="order" onclick="orderCoffee('Espresso')">Order</a>
+        </div>
+        <div class="menu-item">
+            <h3>Cappuccino</h3><br>
+            <img src="4197DBA3-3B09-41D3-9FE1-970FD0174983.jpeg" alt="click here" height="100px" width="100px"> 
+            <h4>A coffee drink made with espresso,steamedmilk, and milk foam with balanced and rick flavours.</h4><br>
+            <p> Rs320</p>
+            <a href="#" class="order" onclick="orderCoffee('Cappuccino')">Order</a>
+        </div>
+        <div class="menu-item">
+            <h3>Latte</h3><br>
+            <img src="D529F7E9-FD4D-4CE9-9D07-2AFC66A0D0EB.jpeg" alt="click here" height="100px" width="100px">
+            <h4>A coffee drink made with espresso,steamed milk,and a thin layer of froth on top.</h4><br>
+            <p>Rs350</p>
+            <a href="#" class="order" onclick="orderCoffee('Latte')">Order</a>
+        </div>
+        <div class="menu-item">
+            <h3>Mocha</h3><br>
+            <img src="857979FA-58F2-433D-BB6B-48C4B37CCFE8.jpeg" alt="click here" height="100px" width="100px">
+            <h4>A sweet,chocolatey coffee drink made with espresso,steamed milk,and chocolate flavouring.</h4><br>
+            <p>Rs400</p>
+            <a href="#" class="order" onclick="orderCoffee('Mocha')">Order</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Rare Coffee Shop</p>
+    </footer>
+</body>
+<script src="project.js"></script>
+</html>
